@@ -1,10 +1,10 @@
 def num(n1, n2):
     if n1 > n2:
-        print(n2)
-    elif n2 > n1:
-        print(n1)
+        print(f'O número maior é: {n1} ')
+    elif n1 < n2:
+        print(f'O número maior é: {n2} ')
     else:
-        print('Valores identicos')
+        print('Valores idênticos')
 
 
 n1 = float(input('Digite o N1: '))
